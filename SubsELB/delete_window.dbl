@@ -6,7 +6,7 @@ subroutine DELETE_WINDOW
 	required in a_wndid     ,n      ;ID of window to delete (Passed)
 	endparams
 
-	.include "WND:windows.def"
+	.include "WND:windows.def" 
 
 proc
 

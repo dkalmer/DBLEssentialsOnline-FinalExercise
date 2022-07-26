@@ -10,7 +10,7 @@ subroutine DISPLAY_MESSAGE
 
 	record
 		msgid           ,i4     ;Message window ID
-		width           ,i4     ;Calculated window width
+		width           ,d4     ;Calculated window width
 		col             ,i4     ;Calculated column for window
 		char            ,a1     ;Input buffer
 	endrecord
